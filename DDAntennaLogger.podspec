@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/mokagio/DDAntennaLogger.git", :tag => s.version }
   s.source_files  = "DDAntennaLogger"
   s.requires_arc = true
-  s.dependency "Antenna", "~> 2.0"
+  s.dependency "Antenna", "< 3.0"
   s.dependency "CocoaLumberjack", "~> 2.0"
 end
